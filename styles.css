@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+input{
+  padding: .2rem;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: rgb(223, 96, 96);
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  font-weight: 500;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
